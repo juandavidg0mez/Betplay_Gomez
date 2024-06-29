@@ -11,7 +11,5 @@ public class HerenciaMain {
         consul.getApellido();
         empl.setApellido("gomez");
         System.out.println("mi apelliodo es " + empl.getApellido());
-        
-
     }
 }
