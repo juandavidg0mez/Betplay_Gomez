@@ -26,6 +26,43 @@ public class Alumno {
         this.nombre = nombre;
         this.apellido = apellido;
     }
+    // esto significa pricipalmente traeme la informacion
+    // por cada atributo de la clase creo un get and set 
+    // los set sirven principalmente para poder modificar un objeto vacio
+    // get puedo ver los datos si es la primera ves con set puedo set los datos cargados
+    // tienen la misma forma de un metodo, el
+
+
+    public int getId(){
+        return  id;
+    }
+
+    public void setId(int id){
+        this.id = id;
+    }
+    public String getNombre(){
+        return  nombre;
+    }
+
+    public void  setNombre(String nombre){
+        this.nombre = nombre;
+    }
+
+    public String getApellido(){
+        return  apellido;
+    }
+    // set es un procedimiento pero recibe un parametro y recibe el parametro lo asigna 
+    public void setApellido(String apellido){
+        this.apellido = apellido;
+    }
+    
+
+
+
+    // son metoftos spc atributos
+
+
+
    
     
 
